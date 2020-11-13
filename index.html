@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles.css">
+  <title>Air Travel Advisory</title>
+</head>
+
+<body>
+  <div class="banner">
+    <h2 id="text">Safe Travels?</h2>
+    <div class="clouds">
+      <img src="cloud1.png" style="--i:1;">
+      <img src="cloud2.png" style="--i:2;">
+      <img src="cloud3.png" style="--i:3;">
+      <img src="cloud4.png" style="--i:4;">
+      <img src="cloud5.png" style="--i:5;">
+      <img src="cloud1.png" style="--i:10;">
+      <img src="cloud2.png" style="--i:9;">
+      <img src="cloud3.png" style="--i:8;">
+      <img src="cloud4.png" style="--i:7;">
+      <img src="cloud5.png" style="--i:6;">
+    </div>
+  </div>
+  <section>
+    <h2>How Safe is Air Travel in a Post Covid World?</h2>
+    <p>
+      Etiam vestibulum est eget lobortis sagittis. Cras porta ex lorem, eget rutrum magna porta nec. Praesent nisi nibh, tincidunt vitae tristique sit amet, iaculis ut libero. Curabitur diam dolor, dapibus eget venenatis et, congue non felis.
+      Suspendisse ultrices, enim vitae suscipit lobortis, ex elit dictum nunc, a ultricies tortor odio non enim. Phasellus id elementum urna, sed finibus eros. Proin non quam vitae orci sagittis placerat sit amet eget turpis. Proin arcu lacus,
+      molestie sit amet est sed, euismod elementum ex. Morbi varius dignissim ligula auctor varius. Duis et aliquet velit. Nunc elit quam, imperdiet et commodo non, aliquam porttitor odio. Nullam vulputate, purus id blandit malesuada, enim felis
+      ultricies erat, quis vulputate ipsum leo eget libero.
+      <br /><br />
+      Aenean lobortis dolor dictum tellus vulputate faucibus. Cras eu neque mauris. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque id vehicula libero, in luctus libero. Suspendisse quis suscipit
+      arcu. Ut vitae odio dapibus, mollis ante non, placerat neque. Donec scelerisque sem eget libero fringilla, quis porttitor ligula pellentesque.
+      <br /><br />
+      Vivamus euismod ligula ac ligula blandit auctor. Donec cursus dictum metus, id placerat nisl malesuada in. Donec eu iaculis erat, vitae cursus massa. Sed sit amet sapien et lorem tempor congue. Ut ac euismod ligula. Vestibulum ante ipsum primis
+      in faucibus orci luctus et ultrices posuere cubilia curae; Mauris quis ex a leo gravida elementum. Quisque sollicitudin pretium justo at blandit. Praesent vel mauris sed risus ultrices laoreet. Pellentesque ac nibh dapibus, scelerisque ipsum a,
+      eleifend elit.
+      <br /><br />
+      Mauris tincidunt nisl eget purus hendrerit luctus. Nulla tellus tellus, convallis eget mi mattis, convallis vulputate metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec et semper eros. Mauris
+      dapibus pretium elit venenatis elementum. Phasellus placerat porta metus, ac auctor erat mattis eget. Sed efficitur nulla eu tortor tincidunt varius. In hac habitasse platea dictumst.
+      <br /><br />
+      Ut id lectus eu quam elementum viverra. Nullam id nunc feugiat, pretium elit at, molestie ipsum. Sed tincidunt orci dapibus, gravida leo sit amet, viverra nisl. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+      mus. Aliquam mauris ipsum, convallis sit amet lacus gravida, pharetra tempus neque. Fusce viverra a tellus sit amet egestas. Duis interdum, nisi at sodales ullamcorper, mauris felis maximus purus, eget maximus urna odio sed elit. Nam ornare leo
+      ac sagittis congue. Nullam egestas ullamcorper euismod. Sed a ornare justo, a porttitor sapien. Nunc tincidunt imperdiet iaculis. Duis ornare est pharetra dolor interdum aliquet. Phasellus consequat elit sed rutrum sollicitudin.
+    </p><br /><br />
+    <p class="copyright">
+      &#169; Copyright 2020 Jean Arbo | Like what you see? <a href="http://jeanarbo.com/">Contact me</a>
+    </p>
+  </section>
+  <script type="text/javascript">
+    let text = document.getElementById('text');
+    window.addEventListener('scroll', function() {
+      let value = window.scrollY;
+      text.style.marginBottom = value * 2 + 'px';
+    })
+  </script>
+</body>
+
+</html>
